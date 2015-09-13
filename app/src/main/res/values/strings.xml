@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Food2Fork</string>
+
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="top_rated">top rated</string>
+    <string name="in_trend">in trend</string>
+
+    <string name="search_no_results">Search returned no results</string>
+    <string name="title_activity_detail">Recipe</string>
+
+    <string name="by">by\u0020<xliff:g id="publisher" example="Ivan">%1$s</xliff:g></string>
+    <string name="rank">rank</string>
+    <string name="ingredients">Ingredients</string>
+
+    <string name="no_network_connection">There\'s no network connection right now. Try again later.</string>
+    <string name="retry">Retry</string>
+</resources>

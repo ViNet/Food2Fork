@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/ivRecipeImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:layout_margin="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRecipeTitle"
+        android:singleLine="true"
+        android:background="@color/background_img_title"
+        android:textColor="@color/text_img_title"
+        android:padding="10dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_gravity="bottom"
+        />
+
+</FrameLayout>
